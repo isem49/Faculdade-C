@@ -24,15 +24,14 @@ int main(void) {
     if(m >= 7 ){
     	
     	printf(" parabens %s sua nota e %f voce foi aprovado", nome, m );
-	}  else if(m <= 5){
+    }else if(m <= 5){
 		
-		printf("%s sua nota e %f voce foi reprovado",nome, m );
+	printf("%s sua nota e %f voce foi reprovado",nome, m );
 		
-	}else if (m >= 5.1 || m <= 6.9 ){
-			
-			printf("%s sua nota e %f voce esta de recuperacao",nome, m );
-		
-	}
+     }else if (m >= 5.1 || m <= 6.9 ){
+	
+	printf("%s sua nota e %f voce esta de recuperacao",nome, m );	
+     }
   
   
   
