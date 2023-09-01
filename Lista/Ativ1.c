@@ -2,41 +2,41 @@
 
 int main()
 {
-    int a,b, result; 
-	char op;
+    float a,b, result; 
+	  char op;
     
     printf("Digite o primeiro numero: ");
-    scanf("%d",&a);
+    scanf("%f",&a);
     printf("Digite o segundo numero: ");
-    scanf("%d",&b);
+    scanf("%f",&b);
 
- 	printf("Escolha a operacao: ");
- 	scanf(" %c",&op);
+  	printf("Escolha a operacao: ");
+ 	  scanf(" %c",&op);
 	 
-	if(op == '+'){
+	  if(op == '+'){
 		
-		result = a + b;
-		printf("O resultado e: %d", result);
-	}else if(op == '-'){
+		  result = a + b;
+		  printf("O resultado e: %f", result);
+  	}
+    else if(op == '-'){
 		
 		result = a - b;
-		printf("O resultado e: %d", result);
+		printf("O resultado e: %f", result);
 		
-	}
-	else if(op == 'x'){
+	 }
+	 else if(op == 'x'){
 		
-		result = a * b;
-		printf("O resultado e: %d", result);
+		  result = a * b;
+		  printf("O resultado e: %f", result);
 		
-	}
-	else if(op == '/'){
+	 }
+	 else if(op == '/'){
 		
-		result = a / b;
-		printf("O resultado e: %d", result);
+	   	result = a / b;
+		  printf("O resultado e: %.2f", result);
 		
-	}
-
-
-	
+	 }
     return 0;
+  
+  
 }
